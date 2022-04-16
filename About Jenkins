@@ -1,0 +1,14 @@
+Jenkins - Jenkins is an open source continous integration / continous delivery and deployment (CI/CD) automation software 
+          It is a Devops Tool
+          It is written in JAVA Programming Language.  
+Pipeline -It is used to implement CI/CD workfolws , called  "Pipeline" 
+          It is used for  building and testing software projects continously which makes it easy for developers to integrate changes in a project . 
+          
+ Jenkins Alernative  -- 
+ Buddy 
+ GoCD 
+ Gitlab CI 
+ IBM Urban code 
+          
+          
+
