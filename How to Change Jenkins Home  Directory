@@ -1,0 +1,15 @@
+How to Change Jenkins Home  Directory 
+
+- Check your jenkins home > Manage jenkins > System configure 
+- create a new folder 
+- copy the data from old folder to new folder 
+- Create / Update env variable JENKINS_HOME 
+- Restart the jenkins service again 
+
+
+
+Simple language  --- 
+
+- Go to the current Home directory of the Jenkins 
+- copy all the files present in the Current Jenkins files 
+- and paste all the files where you want to make new directory for Jenkins . 
