@@ -20,7 +20,23 @@ How to create JOB on Jenkins --
 
 - Go to create a new job 
 - Give the name of your job 
-- Connect to the Source code management ( SCM ) GIT 
-- 
+- Connect to GIT . 
+- Provide Credentials (Add credentials that is create below ) 
+- Apply and save 
+- Build the project 
+- Blue Light - Build Succesfull 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How to create Credentials - 
+- go to manage jenkins > Credentials 
+- go Stores scoped 
+- go to system 
+ - Global credentials (unrestricted) 
+ - Add credentials 
+ - Provide git  user_name and set password 
+ - Enter OK 
+ - Create Credentils Successfull 
+ 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
