@@ -1,0 +1,7 @@
+How to setup Jenkins on Git ----
+
+- Goto manage jenkins  > Manage Plugins 
+- check if git is already installed in installed tab 
+- else go to availabe tab  and  search for git 
+- install git 
+- check git option is present in Job configuration .
