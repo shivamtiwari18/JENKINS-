@@ -1,0 +1,26 @@
+Some Terminology --
+
+- General
+
+- Source code management  - Source Code Management or SCM is a Devops automation tool that maintains a track of versions
+  (revisions) made to the program. Each version has a timestamp and the person who made the changes. These versions can 
+   be compared and merged. SCM is also known as Version Control.
+   
+- Build Trigger - It automatically starts a build whenever you make any changes to your source code .
+
+- Build Environment - 
+
+- Build - Actual build of Projects 
+
+- Post Builds Action  - It means after the successfull build the project send messages like - E-mail Notification  , Git Publisher etc . 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How to create JOB on Jenkins --
+
+- Go to create a new job 
+- Give the name of your job 
+- Connect to the Source code management ( SCM ) GIT 
+- 
+
+
