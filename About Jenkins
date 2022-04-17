@@ -1,16 +1,64 @@
-Jenkins - Jenkins is an open source continous integration / continous delivery and deployment (CI/CD) automation software 
+Jenkins - Jenkins is an open source continous integration, continous delivery and deployment (CI/CD) automation software 
           It is a Devops Tool
           It is written in JAVA Programming Language.  
 Pipeline -It is used to implement CI/CD workfolws , called  "Pipeline" 
-          It is used for  building and testing software projects continously which makes it easy for developers to integrate changes in a project . 
+          It is used for  building and testing software projects continously which makes it easy for developers to integrate changes in a project .
+          
+Contionus Integration - Continuous integration (CI) is the practice of automating the integration of code changes
+from multiple contributors into a single software project . 
+
+Continous Delivery - Continuous delivery is a software development practice where code changes are automatically prepared for a release to production.
+
+Continuous deployment -  is a strategy for software releases wherein any code commit that passes the automated testing phase is
+automatically released into the production environment, making changes that are visible to the software's users.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
           
  Jenkins Alernative  -- 
  Buddy 
  GoCD 
  Gitlab CI 
  IBM Urban code 
+ 
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------        
+          
+To Run the Jenkins on your local host we firstly install the java .
+ why we install java for Jenkins ??
+ - we use java for Jenkiks because Jenkins is written in java and only support Java . 
+ 
+ Why Jenkins only support Java version 8 and 11  ??
+  --  Because in java version 8 and 11 ,they provide LTS (long term Support ) for free  
+ 
+  How to install JAVA  -- 
+  
+  1.First check java is installed in your system or not 
+   - Go to cmd
+   - Type - java -version (To check java is installed or not) 
+   - if not installed 
+   - Go to browser and and download java on your system  . 
+   - After that again open cmd and type java -version .
+   
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  How to run Jenkins - 
+   - Go to cmd (Command Prompt)
+   - type - java -jar jenkins.war --httpPort=8080 ( Specify Port if we want to change the port number ) 
+   - copy the password show in the terminal after running above command  
+   - open your web browser
+   - type - http://localhost:8080 OR type - your ip address:Port ( eg - 172.20.40.59:8080 )
+   - Provide the password and complete the setup . 
+   
+   After the installation process - 
+   Provide all the details . 
+   
+   And Jenkins is ready to use . 
+   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------   
+   
+   
           
           
-          
-          
+
+
+
 
