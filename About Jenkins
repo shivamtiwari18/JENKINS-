@@ -41,6 +41,7 @@ To Run the Jenkins on your local host we firstly install the java .
  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
   
   How to run Jenkins - 
+   - Go to that folder where you put your jenkins files 
    - Go to cmd (Command Prompt)
    - type - java -jar jenkins.war --httpPort=8080 ( Specify Port if we want to change the port number ) 
    - copy the password show in the terminal after running above command  
