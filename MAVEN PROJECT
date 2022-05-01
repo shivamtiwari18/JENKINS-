@@ -1,0 +1,26 @@
+MAVEN PROJECT (BY MAVEN )
+-----------------------------------------------------------------------------------------------------------------------------------
+
+-Go to https://<git project you want to choose  >
+-click on the repo you want to build  
+-clone 
+-cmd > git clone < url of repo >
+-mvn clean project 
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+MAVEN PROJECT  ( BY JENKINS )
+
+-Now go to Jenkins > New item > Enter name > MyMavenProject 
+-Then select Maven Project > OK 
+-Source code management > git (check mark )
+-repo url 
+- Build option >root pom > po .xml 
+ goals and options > clean package > save 
+ 
+ -go to jenkins hiome page > click on 
+ -MyMavenProject > Build Now 
+ 
+
+
+
