@@ -1,0 +1,17 @@
+Maven  jobs , Schedule task , Poll SCM 
+------------------------------------------------------------------------------------
+
+-Go to google chrome - localhost:8080
+-go to manage jenkins on left side of jenkins dashboard  > Manage Plugins > Available  > Select Maven Integration and green balls > Install without restart
+-go to new items > Maven Project 
+-Now go to Manage Jenkins > global tool configuration
+-go to Add JDK 
+Uncheck this install Automatically option 
+NAME - JAVA 
+JAVA_HOME - C:\\programfiles\java\jdk-18 (location of java files)
+
+- Now go  to Maven 
+NAME - MAVEN
+MAVEN_HOME - C:\\DevTools\apache-Maven ( Maven location in  C drive )
+-------------------------------------------------------------------------------------
+
